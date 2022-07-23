@@ -13,7 +13,7 @@
 
 ### About
 
-In this project I decided to create a website that will house all of my work and act as a point of contact for future employers. 
+In this project I decided to create a website that will house all of my work and act as a point of contact for future employers. I started this project by creating a mockup in my notebook to get some ideas flowing. Next I took my ideas to VS Code and started typing out the basic HTML. Once the body of the page was coded, I started applying very basic positioning to my elements using CSS. 
 
 ### Placeholder Content
 
