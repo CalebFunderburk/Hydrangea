@@ -15,3 +15,47 @@ a {
     color: black;
 }
 
+/* Profile */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 9999;
+}
+
+img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0px 7px;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Nav */
+
+.header nav {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header ul li {
+    font-size: 40px;
+    margin: 0px 15px;
+}
