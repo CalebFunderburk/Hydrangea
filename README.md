@@ -17,12 +17,13 @@ In this project I decided to create a website that will house all of my work and
 
 ### Placeholder Content
 
-Cook It! and Wicked Wizard 3 are simply placeholders until I finish more projects to fill in the space. Using these placeholders help by making future updates easier. 
+Run Buddy, Cook It!, and Wicked Wizard are simply placeholders until I finish more projects to fill in these spaces. Using these placeholders help by making future updates easier to implement.
 
 ### Photo Credits
 
 - profile-pic.jpg by Dilon Ballard
 - leaves.jpg, wizard.jpg, & food.jpg were provided by pixabay.com
+- run-buddy.png is a screenshot of a project I worked in Coding Boot Camp
 
 ## Screenshot
 
