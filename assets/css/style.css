@@ -11,13 +11,18 @@
     --white: #ffffff;
 }
 
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 a {
     text-decoration: none;
     color: var(--black);
 }
 
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.container {
+    display: flex;
+    margin: 25px 30px 0 0;
 }
 
 /* Profile */
@@ -83,4 +88,22 @@ h2 {
 }
 
 /* About */
+
+h3 {
+    border-right: solid 3px var(--black);
+    height: 200px;
+    padding-right: 15px;
+    font-size: 50px;
+    text-align: right;
+    width: 25%;
+}
+
+p {
+    width: 75%;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+/* Work */
+
 
