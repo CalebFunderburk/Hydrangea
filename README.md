@@ -22,7 +22,8 @@ Run Buddy, Cook It!, and Wicked Wizard are simply placeholders until I finish mo
 ### Photo Credits
 
 - profile-pic.jpg by Dilon Ballard
-- leaves.jpg, wizard.jpg, & food.jpg were provided by pixabay.com
+- wizard.jpg, & food.jpg were provided by pixabay.com
+- curls.webp was provided by toptal.com
 - run-buddy.png is a screenshot of a project I worked in Coding Boot Camp
 
 ## Screenshot
