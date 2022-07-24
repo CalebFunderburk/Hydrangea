@@ -100,12 +100,54 @@ h3 {
 
 /* About */
 
+#about {
+    height: 250px
+}
+
 p {
-    width: 75%;
+    width: 60%;
     font-size: 20px;
     padding-left: 40px;
 }
 
 /* Work */
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.project {
+
+    position: relative;
+    margin: 0 40px;
+}
+
+.sub-title {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    background-color: #ffffff;
+    padding: 2px 6px;
+}
+
+.spotlight {
+    background-image: url("../images/run-buddy.png");
+    width: 1500px;
+    height: 400px;
+}
+
+.support-1, .support-2 {
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.support-1 {
+    background-image: url("../images/wizard.jpg");
+    margin-left: 900px;
+}
+
+.support-2 {
+    background-image: url("../images/food.jpg");
+}
