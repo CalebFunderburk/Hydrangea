@@ -141,6 +141,7 @@ p {
     width: 400px;
     height: 200px;
     margin-top: 50px;
+    margin-bottom: 15px;
 }
 
 .support-1 {
@@ -150,4 +151,21 @@ p {
 
 .support-2 {
     background-image: url("../images/food.jpg");
+}
+
+/* Contact */
+
+#contact ul {
+    list-style: none;
+    padding-left: 40px;
+    font-size: 35px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#contact ul a {
+    margin: 0 40px;
 }
