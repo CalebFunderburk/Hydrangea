@@ -24,44 +24,44 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    margin: 15px 0;
+    justify-content: space-around;
+    margin: 15px auto;
     background-color: #ffffff;
-}
-
-img {
-    border-radius: 50%;
-    height: 100px;
-}
-
-h1 {
-    font-size: 60px;
-    margin: 0px 7px;
 }
 
 .profile {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 40px;
+}
+
+img {
+    border-radius: 50%;
+    height: 90px;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 0px 7px;
 }
 
 /* Nav */
 
 .header nav {
-    justify-content: flex-end;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .header nav ul {
     display: flex;
+    justify-content: space-between;
     list-style: none;
-    margin-right: 40px;
+    margin: 10px 0;    
 }
 
 .header ul li {
-    font-size: 40px;
+    font-size: 25px;
     margin: 0px 15px;
 }
 
@@ -71,16 +71,15 @@ h1 {
     background-image: url("../images/curls.webp");
     background-position: center;
     width: 100%;
-    height: 220px;
-    position: relative;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
     color: var(--white);
     font-size: 35px;
-    position: absolute;
-    right: 40px;
-    bottom: 15px;
 }
 
 /* Shared CSS for .container Sections */
@@ -188,40 +187,22 @@ h5 {
 
     /* Header + Nav */
 
-    .header {
-        justify-content: space-around;
-    }
-
     h1 {
         font-size: 30px;
     }
 
-    .profile {
-        margin-left: 0;
-    }
-
-    .header nav ul {
-        margin: 10px auto;
-
-    }
-
     .header ul li {
         font-size: 20px;
-        padding: 0;
     }
 
     /* Hero */
 
     .hero {
         height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     h2 {
         font-size: 25px;
-        position: static;
     }
 
     /* Shared CSS for .container Sections */ 
