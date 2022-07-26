@@ -200,6 +200,8 @@ h5 {
 
 @media only screen and (max-width:575px){
 
+    /* Header + Nav */
+
     .header {
         justify-content: center;
         flex-wrap: wrap;
@@ -221,6 +223,8 @@ h5 {
         font-size: 20px;
     }
 
+    /* Hero */
+
     .hero {
         height: 100px;
     }
@@ -228,6 +232,8 @@ h5 {
     h2 {
         font-size: 20px;
     }
+
+    /* About */
 
     .container {
         display: block;
@@ -249,24 +255,29 @@ h5 {
         margin-top: 10px;
     }
 
+    /* Work */
+
     .project {
         display: block;
-        margin: auto;
-        
+        margin: 20px auto;
     }
 
     .spotlight {
-        width: 500px;
+        width: 80%;
         height: 300px;
     }
 
     .support-1, .support-2 {
-        width: 213px;
-        height: 180px;
-        margin: 20px auto;
+        width: 60%;
+        height: 200px;
     }
 
     .sub-title {
         position: static;
     }
+
+    /* Contact */
+
+    
+
 }
