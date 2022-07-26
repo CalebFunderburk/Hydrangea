@@ -10,8 +10,6 @@
     --black: #000000;
     --white: #ffffff;
     --grey: #686868;
-    --green: #557c4a;
-    
 }
 
 body {
@@ -21,7 +19,6 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--black);
 }
 
 /* Profile */
@@ -131,6 +128,10 @@ p {
     background-color: var(--grey);
     padding: 3px 6px;
     font-size: 25px;
+}
+
+h4 {
+    color: var(--black);
 }
 
 .spotlight {
