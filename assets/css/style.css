@@ -186,9 +186,8 @@ h5 {
 
 @media only screen and (max-width: 980px) {
 
-    body {
 
-    }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -232,7 +231,7 @@ h5 {
         position: static;
     }
 
-    /* About */
+    /* Shared CSS for .container Sections */ 
 
     .container {
         display: block;
@@ -249,11 +248,13 @@ h5 {
         text-align: center;
     }
 
+    /* About */
+
     p {
         width: 70%;
         margin: 10px auto;
         padding-left: 0;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     /* Work */
@@ -321,73 +322,8 @@ h5 {
 
     /* About */
 
-    .container {
-        display: block;
-        text-align: center;
-        margin: 10px 0px;
-    }
-
-    h3 {
-        font-size: 30px;
-        border-right: none;
-        border-bottom: solid 2px var(--black);
-        width: auto;
-        height: auto;
-        text-align: center;
-    }
-
     p {
-        width: 70%;
-        margin: 10px auto;
-        padding-left: 0;
         font-size: 15px;
-    }
-
-    /* Work */
-
-    .project {
-        display: block;
-        margin: 20px auto;
-    }
-
-    .spotlight {
-        width: 80%;
-        height: 300px;
-    }
-
-    .support-1, .support-2 {
-        width: 60%;
-        height: 200px;
-    }
-
-    .sub-title {
-        position: static;
-    }
-
-    /* Contact */
-
-    #contact ul {
-    display: block;
-    padding-left: 0;
-    }
-
-    #contact ul a {
-        margin: auto;
-        padding: 0;
-        display: block;
-        font-size: 20px;
-    }
-
-    /* Footer */
-
-    footer {
-        height: 100px;
-        justify-content: center;
-    }
-
-    h5 {
-        padding-right: 0;
-        font-size: 12px;
     }
 
 }
