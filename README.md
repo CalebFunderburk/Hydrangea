@@ -28,7 +28,7 @@ Run Buddy, Cook It!, and Wicked Wizard are simply placeholders until I finish mo
 
 ## Screenshot
 
-
+![Screenshot of my project](assets/images/screenshot.png)
 
 ## Contributions
 
