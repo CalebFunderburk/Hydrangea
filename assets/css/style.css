@@ -9,10 +9,14 @@
 :root {
     --black: #000000;
     --white: #ffffff;
+    --grey: #686868;
+    --green: #557c4a;
+    
 }
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--black);
 }
 
 a {
@@ -25,8 +29,8 @@ a {
 .header {
     display: flex;
     justify-content: space-around;
-    margin: 15px auto;
-    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 10px 0;
 }
 
 .profile {
@@ -43,6 +47,7 @@ img {
 h1 {
     font-size: 35px;
     margin: 0px 7px;
+    color: var(--grey);
 }
 
 /* Nav */
@@ -63,6 +68,7 @@ h1 {
 .header ul li {
     font-size: 25px;
     margin: 0px 15px;
+    color: var(--grey);
 }
 
 /* Hero */
@@ -92,8 +98,9 @@ h2 {
 
 h3 {
     font-size: 35px;
-    border-bottom: solid 3px var(--black);
+    border-bottom: solid 3px var(--grey);
     text-align: center;
+    color: var(--grey);
 }
 
 /* About */
@@ -103,6 +110,7 @@ p {
     width: 70%;
     text-align: center;
     margin: 10px auto;
+    color: var(--grey);
 }
 
 /* Work */
@@ -120,7 +128,7 @@ p {
     position: absolute;
     right: 10px;
     bottom: 5px;
-    background-color: #ffffff;
+    background-color: var(--grey);
     padding: 3px 6px;
     font-size: 25px;
 }
@@ -158,6 +166,10 @@ p {
     align-items: center;
 }
 
+#contact ul li {
+    color: var(--grey);
+}
+
 /* Footer */
 
 footer {
@@ -170,6 +182,7 @@ footer {
 
 h5 {
     font-size: 15px;
+    color: var(--grey);
 }
 
 /* Media Querys */
