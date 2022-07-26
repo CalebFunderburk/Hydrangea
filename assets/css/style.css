@@ -85,38 +85,35 @@ h2 {
 /* Shared CSS for .container Sections */
 
 .container {
-    display: flex;
-    margin: 70px 0;
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
 }
 
 h3 {
-    border-right: solid 3px var(--black);
-    height: 200px;
-    padding-right: 15px;
-    font-size: 50px;
-    text-align: right;
-    width: 25%;
+    font-size: 35px;
+    border-bottom: solid 3px var(--black);
+    text-align: center;
 }
 
 /* About */
 
 p {
-    width: 60%;
     font-size: 20px;
-    padding-left: 40px;
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
 }
 
 /* Work */
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
+    margin: 20px auto;
 }
 
 .project {
-
+    display: block;
     position: relative;
-    margin: 0 40px;
 }
 
 .sub-title {
@@ -124,46 +121,41 @@ p {
     right: 10px;
     bottom: 5px;
     background-color: #ffffff;
-    padding: 2px 6px;
+    padding: 3px 6px;
+    font-size: 25px;
 }
 
 .spotlight {
     background-image: url("../images/run-buddy.png");
-    width: 1500px;
+    width: 80%;
     height: 400px;
-}
-
-.support-1, .support-2 {
-    width: 400px;
-    height: 200px;
-    margin-top: 50px;
-    margin-bottom: 15px;
+    margin: 20px auto;
 }
 
 .support-1 {
     background-image: url("../images/wizard.jpg");
-    margin-left: 900px;
+    background-position: 0;
+    width: 60%;
+    height: 300px;
+    margin: 20px auto;
 }
 
 .support-2 {
     background-image: url("../images/food.jpg");
+    width: 60%;
+    height: 300px;
+    margin: 20px auto;
 }
 
 /* Contact */
 
 #contact ul {
     list-style: none;
-    padding-left: 40px;
-    font-size: 35px;
-    margin-top: 15px;
+    font-size: 30px;
+    margin: 15px auto;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-}
-
-#contact ul a {
-    margin: 0 40px;
 }
 
 /* Footer */
@@ -173,12 +165,11 @@ footer {
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 h5 {
-    font-size: 20px;
-    padding-right: 40px;
+    font-size: 15px;
 }
 
 /* Media Querys */
@@ -208,18 +199,12 @@ h5 {
     /* Shared CSS for .container Sections */ 
 
     .container {
-        display: block;
-        text-align: center;
         margin: 10px 0px;
     }
 
     h3 {
         font-size: 30px;
-        border-right: none;
         border-bottom: solid 2px var(--black);
-        width: auto;
-        height: auto;
-        text-align: center;
     }
 
     /* About */
@@ -234,35 +219,31 @@ h5 {
     /* Work */
 
     .project {
-        display: block;
         margin: 20px auto;
     }
 
     .spotlight {
-        width: 80%;
         height: 300px;
     }
 
     .support-1, .support-2 {
-        width: 60%;
         height: 200px;
     }
 
     .sub-title {
         position: static;
+        font-size: 17px;
     }
 
     /* Contact */
 
     #contact ul {
     display: block;
-    padding-left: 0;
     }
 
     #contact ul a {
-        margin: auto;
-        padding: 0;
         display: block;
+        margin: 9px auto;
         font-size: 20px;
     }
 
@@ -270,12 +251,6 @@ h5 {
 
     footer {
         height: 100px;
-        justify-content: center;
-    }
-
-    h5 {
-        padding-right: 0;
-        font-size: 15px;
     }
     
 }
