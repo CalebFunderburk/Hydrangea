@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 :root {
@@ -150,7 +151,7 @@ h4 {
 }
 
 .support-2 {
-    background-image: url("../images/food.jpg");
+    background-image: url("../images/picme-screenshot.png");
     width: 60%;
     height: 300px;
     margin: 20px auto;
