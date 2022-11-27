@@ -1,8 +1,8 @@
-# Hydrangea
+# Vanilla Portfolio
 
 ## Website
 
-https://calebfunderburk.github.io/Hydrangea/
+https://calebfunderburk.github.io/Vanilla-Portfolio/
 
 ## Built With
 
